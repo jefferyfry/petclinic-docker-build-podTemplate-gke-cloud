@@ -2,7 +2,6 @@
 pipeline {
   agent {
     kubernetes {
-        cloud 'gke'
         label 'docker-build-pod'
         yamlFile 'podTemplate/spring-petclinic-docker-build.yaml'
         idleMinutes 120
