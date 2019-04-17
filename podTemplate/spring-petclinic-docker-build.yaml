@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: docker-build-pod-onprem
+  name: docker-build-pod
 spec:
   containers:
   - name: maven
