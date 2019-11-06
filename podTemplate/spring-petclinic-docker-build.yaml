@@ -10,7 +10,7 @@ spec:
     - cat
     tty: true
   - name: gcloud-kubectl
-    image: jefferyfry/gcloud-kubectl:latest
+    image: kiwigrid/gcloud-kubectl-helm:latest
     command:
     - cat
     tty: true  
